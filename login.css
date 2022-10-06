@@ -1,0 +1,122 @@
+nav {
+    background-color: #FEC0AA;
+
+}
+
+.topnav {
+    float: right;
+    color: #eb6530;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    width: 700px;
+    word-spacing: 40px;
+
+}
+
+.topnav button{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #FEC0AA;
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, .2),
+            rgba(0, 0, 0, .2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+        inset -2px -2px 3px rgba(0, 0, 0, .6);
+        text-decoration: none;
+}
+
+.topnav button:hover {
+    background-color: whitesmoke(255, 0, 0, 1);
+}
+
+.topnav button:active {
+    box-shadow: inset -2px -2px 3px rgba(183, 45, 45, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+#wrapper{
+    display:-webkit-flex;
+    -webkit-justify-content:center;
+
+    display:flex;
+    justify-content:center;
+
+}
+
+#wrapper div{
+    -webkit-flex:1;
+    flex:1;
+    border-style: none!important;
+
+}
+h1{
+    font-family: monospace ;
+    font-weight: 700;
+    background-color: #FEC0AA;
+    color:#0d0c0c;
+}
+    
+{
+    background-color: #FEC0AA;
+}
+footer{
+    width: auto;
+    height: auto;
+    background-color: #111;
+    color: #FEC0AA;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    font-size: 19px;
+}
+   
+.footer_content_container{
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    
+}
+.footer_content_container h3{
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: capitalize;
+    
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #FEC0AA;
+}
+.socials a i{
+    font-size: 1.1rem;
+}
+
+.legals{
+    color: #FEC0AA;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+    height: auto;
+    padding: 2px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 17px;
+}
